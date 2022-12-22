@@ -1,0 +1,26 @@
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    
+}
+tr{
+    width: 10vh;
+    align-items: center;
+}
+td{
+    width: 500vh;
+    align-items: center;
+}
+th{
+    background-color: rgb(106, 106, 106);
+    padding: 20px;
+}
+td{
+    background-color: rgb(202, 203, 204);
+    padding: 10px;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
