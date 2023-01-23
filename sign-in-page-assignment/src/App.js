@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { createRoot } from 'react-dom/client'
 import './index.css';
 import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
@@ -68,5 +67,3 @@ const NormalLoginForm = () => {
   );
 };
 export default NormalLoginForm;
-
-createRoot(document.getElementById('root')).render(<h1>Your App</h1>)
