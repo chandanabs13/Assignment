@@ -1,0 +1,46 @@
+.login-form{
+    align-items: center;
+    width: 300px;
+  border: 1px solid rgb(67, 70, 67);
+  padding: 50px ;
+  margin: auto;
+  background-color: rgb(233, 233, 233);
+
+}
+.login{
+    text-align: left;
+}
+.forgot{
+    text-align: right;
+}
+.sign-button{
+    align-items: center;
+}
+.button1{
+    background-color: #011df7;
+  border: none;
+  color: rgb(230, 230, 230);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.lock{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 11px;
+    border: 2px solid;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: transparent;
+    margin-top: -12px
+}
+.google-button{
+    text-align: center;
+    text-size-adjust: 50;
+   
+}
